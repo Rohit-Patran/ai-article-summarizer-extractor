@@ -87,7 +87,7 @@ const Demo = () => {
   return (
     <section className='mt-16 w-full max-w-xl'>
       <div className="flex justify-center gap-x-4 mb-4">
-        <button value = "summarize" className="bg-gray-500 text-white px-4 py-2 rounded-md focus:bg-gray-500" onClick={(e) => setArticle({...article, service : e.target.value})}> Summarize </button>
+        <button value = "summarize" className="bg-gray-400 text-white px-4 py-2 rounded-md focus:bg-gray-500" onClick={(e) => setArticle({...article, service : e.target.value})}> Summarize </button>
         <button value = "extract" className="bg-gray-400 text-white px-8 py-2 rounded-md focus:bg-gray-500" onClick={(e) => setArticle({...article, service : e.target.value})}> Extract </button>
       </div>
       {/* Search */}
